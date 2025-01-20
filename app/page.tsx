@@ -5,13 +5,13 @@ import Hero from "@/components/Hero/Hero";
 import { FloatingNav } from "@/components/Nav";
 import RecentProjects from "@/components/Projects";
 
-export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" },
-];
-
 export default function Home() {
+  const navItems = [
+    { name: "About", link: "#about" },
+    { name: "Projects", link: "#projects" },
+    { name: "Contact", link: "#contact" },
+  ];
+
   return (
     <div className="">
       <FloatingNav navItems={navItems} />

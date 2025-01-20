@@ -8,21 +8,20 @@ import {
 import React from "react";
 import styles from "./Dots.module.css";
 
-export interface IProps {
-  delegated?: any;
-}
-
-const Dots: React.FC<React.PropsWithChildren<IProps>> = ({ children }) => {
+const Dots: React.FC<React.PropsWithChildren> = ({ children }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const boundingRect = useRef<HTMLDivElement>(null);
   const [canvasWidth, setCanvasWidth] = React.useState(0);
   const [canvasHeight, setCanvasHeight] = React.useState(0);
 
   React.useEffect(() => {
+    if (!canvasRef.current) return;
+
     const props = drawLines(canvasRef, boundingRect);
     if (!props) return;
 
     const handleMouseMove = getMouseMoveHandler(props);
+
     const handleMouseLeave = getMouseLeaveHandler(props);
 
     props.canvas.addEventListener("mousemove", handleMouseMove);
