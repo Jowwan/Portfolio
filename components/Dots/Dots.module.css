@@ -1,0 +1,31 @@
+.canvas {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-background-regular);
+  z-index: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .canvas {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .canvas {
+    display: block;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #000319;
+  z-index: 0;
+}
