@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
+
+This repository contains the source code for my personal portfolio website, built with **Next.js** and **Tailwind CSS**. The site is designed to showcase my projects, skills, and experiences as a developer.
+
+## Features
+
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop views.
+- **Interactive Animations**: Smooth and engaging animations using Framer Motion.
+- **Projects Showcase**: A dedicated section to display portfolio projects with descriptions and live links.
+- **About Me**: An overview of my background, skills, and accomplishments.
+- **Contact Form**: A functional contact form for visitors to get in touch.
+
+## Tech Stack
+
+- **Next.js**: Framework for React applications with server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Framer Motion**: Library for animations and transitions.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+Ensure you have the following installed:
+
+- **Node.js** (v16 or higher)
+- **npm** or **yarn**
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+### Running Locally
+
+Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create a production build:
+```bash
+npm run build
+# or
+yarn build
+```
 
-## Learn More
+Start the production server:
+```bash
+npm start
+# or
+yarn start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project can be deployed to platforms like Vercel, Netlify, or any hosting service that supports Next.js. For Vercel:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push your code to a GitHub repository.
+2. Go to [Vercel](https://vercel.com/) and import your repository.
+3. Follow the deployment instructions provided by Vercel.
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to reach out if you have any questions or feedback:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Email**: jowwanv@gmail.com
+---
+
+Thank you for visiting my portfolio repository! I hope you enjoy exploring it as much as I enjoyed building it.
