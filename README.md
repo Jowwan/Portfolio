@@ -16,8 +16,6 @@ This repository contains the source code for my personal portfolio website, buil
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **Framer Motion**: Library for animations and transitions.
 
-## Getting Started
-
 ### Prerequisites
 
 Ensure you have the following installed:
